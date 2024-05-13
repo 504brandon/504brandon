@@ -924,7 +924,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "63";
+	app.meta.h["build"] = "1";
 	app.meta.h["company"] = "HaxeFlixel";
 	app.meta.h["file"] = "504Brandon";
 	app.meta.h["name"] = "504Brandon";
@@ -3737,7 +3737,7 @@ ManifestResources.init = function(config) {
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$nokiafc22_$ttf);
 	openfl_text_Font.registerFont(_$_$ASSET_$_$OPENFL_$_$flixel_$fonts_$monsterrat_$ttf);
 	var bundle;
-	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R7R6tgoR0y24:assets%2Fimages%2Fxp.pngR2i53908R3y5:IMAGER5R8R6tgoR0y27:assets%2Fimages%2Fxpbio.pngR2i60848R3R9R5R10R6tgoR0y31:assets%2Fimages%2Fxpdiscord.pngR2i26737R3R9R5R11R6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R12R6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R13R6tgoR2i10077R3y5:MUSICR5y30:assets%2Fsounds%2Fxp-error.mp3y9:pathGroupaR15hR6tgoR2i2114R3R14R5y26:flixel%2Fsounds%2Fbeep.mp3R16aR17y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R14R5y28:flixel%2Fsounds%2Fflixel.mp3R16aR19y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3y5:SOUNDR5R18R16aR17R18hgoR2i33629R3R21R5R20R16aR19R20hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R22R23y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R9R5R28R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R9R5R29R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Fbox.pngR2i912R3R9R5R30R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fbutton.pngR2i433R3R9R5R31R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_down.pngR2i446R3R9R5R32R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_left.pngR2i459R3R9R5R33R6tgoR0y49:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_right.pngR2i511R3R9R5R34R6tgoR0y46:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_up.pngR2i493R3R9R5R35R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fbutton_thin.pngR2i247R3R9R5R36R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fbutton_toggle.pngR2i534R3R9R5R37R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fcheck_box.pngR2i922R3R9R5R38R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fcheck_mark.pngR2i946R3R9R5R39R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fchrome.pngR2i253R3R9R5R40R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fchrome_flat.pngR2i212R3R9R5R41R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_inset.pngR2i192R3R9R5R42R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_light.pngR2i214R3R9R5R43R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fdropdown_mark.pngR2i156R3R9R5R44R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Ffinger_big.pngR2i1724R3R9R5R45R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Ffinger_small.pngR2i294R3R9R5R46R6tgoR0y38:flixel%2Fflixel-ui%2Fimg%2Fhilight.pngR2i129R3R9R5R47R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Finvis.pngR2i128R3R9R5R48R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fminus_mark.pngR2i136R3R9R5R49R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fplus_mark.pngR2i147R3R9R5R50R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Fradio.pngR2i191R3R9R5R51R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fradio_dot.pngR2i153R3R9R5R52R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fswatch.pngR2i185R3R9R5R53R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Ftab.pngR2i201R3R9R5R54R6tgoR0y39:flixel%2Fflixel-ui%2Fimg%2Ftab_back.pngR2i210R3R9R5R55R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Ftooltip_arrow.pngR2i18509R3R9R5R56R6tgoR0y39:flixel%2Fflixel-ui%2Fxml%2Fdefaults.xmlR2i1263R3R4R5R57R6tgoR0y53:flixel%2Fflixel-ui%2Fxml%2Fdefault_loading_screen.xmlR2i1953R3R4R5R58R6tgoR0y44:flixel%2Fflixel-ui%2Fxml%2Fdefault_popup.xmlR2i1848R3R4R5R59R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
+	var data = "{\"name\":null,\"assets\":\"aoy4:pathy34:assets%2Fdata%2Fdata-goes-here.txty4:sizezy4:typey4:TEXTy2:idR1y7:preloadtgoR0y36:assets%2Fimages%2Fimages-go-here.txtR2zR3R4R5R7R6tgoR0y24:assets%2Fimages%2Fxp.pngR2i53908R3y5:IMAGER5R8R6tgoR0y27:assets%2Fimages%2Fxpbio.pngR2i60848R3R9R5R10R6tgoR0y31:assets%2Fimages%2Fxpdiscord.pngR2i28602R3R9R5R11R6tgoR0y36:assets%2Fmusic%2Fmusic-goes-here.txtR2zR3R4R5R12R6tgoR0y36:assets%2Fsounds%2Fsounds-go-here.txtR2zR3R4R5R13R6tgoR2i10077R3y5:MUSICR5y30:assets%2Fsounds%2Fxp-error.mp3y9:pathGroupaR15hR6tgoR2i2114R3R14R5y26:flixel%2Fsounds%2Fbeep.mp3R16aR17y26:flixel%2Fsounds%2Fbeep.ogghR6tgoR2i39706R3R14R5y28:flixel%2Fsounds%2Fflixel.mp3R16aR19y28:flixel%2Fsounds%2Fflixel.ogghR6tgoR2i5794R3y5:SOUNDR5R18R16aR17R18hgoR2i33629R3R21R5R20R16aR19R20hgoR2i15744R3y4:FONTy9:classNamey35:__ASSET__flixel_fonts_nokiafc22_ttfR5y30:flixel%2Ffonts%2Fnokiafc22.ttfR6tgoR2i29724R3R22R23y36:__ASSET__flixel_fonts_monsterrat_ttfR5y31:flixel%2Ffonts%2Fmonsterrat.ttfR6tgoR0y33:flixel%2Fimages%2Fui%2Fbutton.pngR2i519R3R9R5R28R6tgoR0y36:flixel%2Fimages%2Flogo%2Fdefault.pngR2i3280R3R9R5R29R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Fbox.pngR2i912R3R9R5R30R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fbutton.pngR2i433R3R9R5R31R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_down.pngR2i446R3R9R5R32R6tgoR0y48:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_left.pngR2i459R3R9R5R33R6tgoR0y49:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_right.pngR2i511R3R9R5R34R6tgoR0y46:flixel%2Fflixel-ui%2Fimg%2Fbutton_arrow_up.pngR2i493R3R9R5R35R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fbutton_thin.pngR2i247R3R9R5R36R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fbutton_toggle.pngR2i534R3R9R5R37R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fcheck_box.pngR2i922R3R9R5R38R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fcheck_mark.pngR2i946R3R9R5R39R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fchrome.pngR2i253R3R9R5R40R6tgoR0y42:flixel%2Fflixel-ui%2Fimg%2Fchrome_flat.pngR2i212R3R9R5R41R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_inset.pngR2i192R3R9R5R42R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Fchrome_light.pngR2i214R3R9R5R43R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Fdropdown_mark.pngR2i156R3R9R5R44R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Ffinger_big.pngR2i1724R3R9R5R45R6tgoR0y43:flixel%2Fflixel-ui%2Fimg%2Ffinger_small.pngR2i294R3R9R5R46R6tgoR0y38:flixel%2Fflixel-ui%2Fimg%2Fhilight.pngR2i129R3R9R5R47R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Finvis.pngR2i128R3R9R5R48R6tgoR0y41:flixel%2Fflixel-ui%2Fimg%2Fminus_mark.pngR2i136R3R9R5R49R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fplus_mark.pngR2i147R3R9R5R50R6tgoR0y36:flixel%2Fflixel-ui%2Fimg%2Fradio.pngR2i191R3R9R5R51R6tgoR0y40:flixel%2Fflixel-ui%2Fimg%2Fradio_dot.pngR2i153R3R9R5R52R6tgoR0y37:flixel%2Fflixel-ui%2Fimg%2Fswatch.pngR2i185R3R9R5R53R6tgoR0y34:flixel%2Fflixel-ui%2Fimg%2Ftab.pngR2i201R3R9R5R54R6tgoR0y39:flixel%2Fflixel-ui%2Fimg%2Ftab_back.pngR2i210R3R9R5R55R6tgoR0y44:flixel%2Fflixel-ui%2Fimg%2Ftooltip_arrow.pngR2i18509R3R9R5R56R6tgoR0y39:flixel%2Fflixel-ui%2Fxml%2Fdefaults.xmlR2i1263R3R4R5R57R6tgoR0y53:flixel%2Fflixel-ui%2Fxml%2Fdefault_loading_screen.xmlR2i1953R3R4R5R58R6tgoR0y44:flixel%2Fflixel-ui%2Fxml%2Fdefault_popup.xmlR2i1848R3R4R5R59R6tgh\",\"rootPath\":null,\"version\":2,\"libraryArgs\":[],\"libraryType\":null}";
 	var manifest = lime_utils_AssetManifest.parse(data,ManifestResources.rootPath);
 	var library = lime_utils_AssetLibrary.fromManifest(manifest);
 	lime_utils_Assets.registerLibrary("default",library);
@@ -8167,10 +8167,11 @@ var XPWindow = function(x,y,image,width,height,buttonHitboxOffset,closeHitboxOff
 	this.closeHitboxOffset = [0,0];
 	flixel_FlxSprite.call(this,x,y);
 	this.closeHitboxOffset = closeHitboxOffset;
+	this.buttonHitboxOffset = buttonHitboxOffset;
 	this.loadGraphic("assets/images/xp" + image + ".png",true,width,height);
 	this.animation.add("normal",[0],1,false);
 	this.animation.add("inactive",[1],1,false);
-	this.animation.add("buttonp1",[3,2,3],10,false);
+	this.animation.add("buttonp1",[3,2,3],2,false);
 	this.animation.play("normal");
 	this.set_alpha(windowAlpha);
 	this.titlebarHitBox = new flixel_FlxSprite(this.x,this.y).makeGraphic(this.get_width() | 0,29);
@@ -8193,7 +8194,7 @@ XPWindow.prototype = $extend(flixel_FlxSprite.prototype,{
 	,buttonHitboxOffset: null
 	,update: function(elapsed) {
 		var _gthis = this;
-		if(flixel_FlxG.mouse._leftButton.current == 2) {
+		if(flixel_FlxG.mouse._leftButton.current == 2 && this.animation._curAnim.name.indexOf("button") == -1) {
 			if(flixel_FlxG.mouse.overlaps(this)) {
 				this.animation.play("normal");
 			} else {
@@ -8202,12 +8203,10 @@ XPWindow.prototype = $extend(flixel_FlxSprite.prototype,{
 		}
 		if(flixel_FlxG.mouse.overlaps(this.okHitBox) && flixel_FlxG.mouse._leftButton.current == 2) {
 			this.animation.play("buttonp1");
-			this.animation.finishCallback = function(n) {
-				flixel_FlxG.sound.play("assets/sounds/xp-error.mp3",1);
-				_gthis.onButtonPress();
-				_gthis.animation.finishCallback = function(n) {
-				};
-			};
+			this.onButtonPress();
+			flixel_FlxG.sound.play("assets/sounds/xp-error.mp3",1,false,null,true,function() {
+				_gthis.animation.play("normal");
+			});
 		}
 		if(flixel_FlxG.mouse.overlaps(this.closeButtonHitBox) && flixel_FlxG.mouse._leftButton.current == 2) {
 			this.kill();
@@ -8233,7 +8232,7 @@ XPWindow.prototype = $extend(flixel_FlxSprite.prototype,{
 		this.okHitBox.kill();
 	}
 	,onButtonPress: function() {
-		haxe_Log.trace("no code UwU",{ fileName : "source/XPWindow.hx", lineNumber : 85, className : "XPWindow", methodName : "onButtonPress"});
+		haxe_Log.trace("no code UwU",{ fileName : "source/XPWindow.hx", lineNumber : 93, className : "XPWindow", methodName : "onButtonPress"});
 	}
 	,__class__: XPWindow
 });
@@ -67652,7 +67651,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 644745;
+	this.version = 970353;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
